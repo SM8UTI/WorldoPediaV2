@@ -1,0 +1,54 @@
+{
+  "desc": " Worldo-pedia is travel portal specially designed to meet the requirements of the travel industry.",
+  "addressInfo": {
+    "phone": "8431768527, 8660711636",
+    "email": "hello@worldo-pedia.com",
+    "address": "#1, Ground Floor, 24th B Cross, 5th Main, Karesandra, Banshankari 2nd Stage, Bengaluru - 560070"
+  },
+  "list1Name": "Company",
+  "list1": [
+    {
+      "text": "Home",
+      "link": "/"
+    },
+    {
+      "text": "About us",
+      "link": "/about"
+    },
+    {
+      "text": "Rewards",
+      "link": "#"
+    },
+    {
+      "text": "Work with us",
+      "link": "#"
+    },
+    {
+      "text": "Contact",
+      "link": "/contact"
+    }
+  ],
+  "list2Name": "Explore",
+  "list2": [
+    {
+      "text": "Account",
+      "link": "#"
+    },
+    {
+      "text": "Private Policy",
+      "link": "#"
+    },
+    {
+      "text": "Affilite Program",
+      "link": "#"
+    },
+    {
+      "text": "Our Partner",
+      "link": "#"
+    },
+    {
+      "text": "Events",
+      "link": "#"
+    }
+  ]
+}
