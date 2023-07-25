@@ -4,26 +4,54 @@ import image from "../assets/aboutus.jpg";
 import ProgressBar from "@ramonak/react-progress-bar";
 import { Link } from "react-router-dom";
 
+import { animateScroll as scroll } from "react-scroll";
+
 const Aboutus = () => {
   return (
     <>
       <div className="AboutUS">
         <Wrapper>
           <div className="container">
-            <div className="image">
+            <div
+              className="image"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="center-bottom"
+            >
               <img src={image} alt="worldo-pedia image" />
             </div>
             <div className="text">
-              <h3>Learn about us</h3>
-              <h2>Dare to Explore with Worldo-Pedia</h2>
-              <p>
+              <h3
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-anchor-placement="center-bottom"
+              >
+                Learn about us
+              </h3>
+              <h2
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-anchor-placement="center-bottom"
+              >
+                Dare to Explore with Worldo-Pedia
+              </h2>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-anchor-placement="center-bottom"
+              >
                 We are trusted by our clients and have a reputation for the best
                 services in the field. Lorem ipsum is simply free text dolor sit
                 amett consectetur adipiscing elit. It is a long established fact
                 that a reader will be distracted by the readable content of a
                 page.
               </p>
-              <div className="progressbar">
+              <div
+                className="progressbar"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-anchor-placement="bottom-bottom"
+              >
                 <div className="item">
                   <span>Best Services</span>
                   <ProgressBar completed={88} bgColor={"#17a2ba"} />
@@ -34,7 +62,14 @@ const Aboutus = () => {
                 </div>
               </div>
 
-              <Link className="pBtn" to={"/contact"}>
+              <Link
+                className="pBtn"
+                to={"/contact"}
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-anchor-placement="bottom-bottom"
+                onClick={() => scroll.scrollToTop()}
+              >
                 Know more
               </Link>
             </div>
@@ -48,7 +83,11 @@ const Aboutus = () => {
               <h3>Plan your trip with us</h3>
               <h2>Ready for an unforgetable tour?</h2>
             </div>
-            <Link to={"/contact"} className="pBtn">
+            <Link
+              to={"/contact"}
+              className="pBtn"
+              onClick={() => scroll.scrollToTop()}
+            >
               Book tour now
             </Link>
           </div>

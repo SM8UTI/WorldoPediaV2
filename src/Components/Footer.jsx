@@ -57,7 +57,9 @@ const Footer = () => {
             <h4>{FooterDetails.list1Name}</h4>
             {FooterDetails.list1.map((elem, index) => (
               <li key={index}>
-                <Link to={elem.link}>{elem.text}</Link>
+                <Link to={elem.link} onClick={() => scroll.scrollToTop()}>
+                  {elem.text}
+                </Link>
               </li>
             ))}
           </ul>
@@ -65,7 +67,9 @@ const Footer = () => {
             <h4>{FooterDetails.list2Name}</h4>
             {FooterDetails.list2.map((elem, index) => (
               <li key={index}>
-                <Link to={elem.link}>{elem.text}</Link>
+                <Link to={elem.link} onClick={() => scroll.scrollToTop()}>
+                  {elem.text}
+                </Link>
               </li>
             ))}
           </ul>

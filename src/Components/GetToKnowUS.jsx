@@ -2,6 +2,9 @@ import Wrapper from "./Wrapper";
 import img from "../assets/about.jpg";
 import { AiFillCheckCircle } from "react-icons/ai";
 import getToKnowUSData from "../Data/getToKnowUSData.json";
+import { Link } from "react-router-dom";
+
+import { animateScroll as scroll } from "react-scroll";
 
 const GetToKnowUS = () => {
   return (
@@ -14,7 +17,7 @@ const GetToKnowUS = () => {
             data-aos-duration="2000"
             data-aos-anchor-placement="center-bottom"
           >
-            <img src={img} alt="getToKnowUSData" loading="lazy" />
+            <img src={img} alt="getToKnowUSData" />
             <ul>
               <li>
                 <h3>{getToKnowUSData.discountValue}</h3>
@@ -42,7 +45,13 @@ const GetToKnowUS = () => {
                 </li>
               ))}
             </ul>
-            <button className="pBtn">view more</button>
+            <Link
+              to={"/about"}
+              className="pBtn"
+              onClick={() => scroll.scrollToTop()}
+            >
+              view more
+            </Link>
           </div>
         </div>
       </Wrapper>

@@ -12,12 +12,10 @@ const App = () => {
   const [loadding, setLoadding] = useState(true);
   useEffect(() => {
     setLoadding(true);
-    window.addEventListener("load", () => {
+
+    setTimeout(() => {
       setLoadding(false);
-      setTimeout(() => {
-        setLoadding(false);
-      }, 500);
-    });
+    }, 1000);
 
     AOS.init();
   }, []);

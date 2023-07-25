@@ -8,11 +8,21 @@ const Testimonials = () => {
   return (
     <div className="Testimonials">
       <Wrapper>
-        <div className="header">
+        <div
+          className="header"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="center-bottom"
+        >
           <h3>Testimonials & reviews</h3>
           <h2>What They’re Saying</h2>
         </div>
-        <div className="container">
+        <div
+          className="container"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="center-bottom"
+        >
           <Carsoual>
             {data?.map((elem, index) => (
               <div key={index} className="Testimonials-card">

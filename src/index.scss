@@ -182,6 +182,11 @@ button {
   font-weight: 700;
   max-width: max-content;
   padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  &:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    opacity: 80%;
+  }
 
   @include breakpoints(smMax) {
     margin-inline: auto;
@@ -1698,7 +1703,7 @@ button {
   .text {
     padding: 1rem;
     .message {
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
       h4 {
         margin-top: 1rem;
       }
@@ -1730,3 +1735,67 @@ button {
 }
 
 // -----
+
+// banner2
+
+.Banner2 {
+  position: relative;
+  .stats {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-top: -5rem;
+
+    .container {
+      width: 100%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 0.5rem;
+      @include breakpoints(lg) {
+        min-width: 60vw;
+      }
+      background-color: var(--neutral);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 2rem;
+      flex-wrap: wrap;
+      padding: 2rem;
+      div {
+        text-align: center;
+        h3 {
+          font-family: var(--secondaryFont);
+          color: var(--primary);
+          margin-bottom: 8px;
+        }
+
+        span {
+          font-size: 1.2rem;
+          color: var(--subText);
+        }
+      }
+    }
+  }
+  .Banner {
+    margin-top: 0 !important;
+    padding-top: 1rem;
+    .container {
+      @include breakpoints(md) {
+        grid-template-columns: 1fr !important;
+      }
+      margin-bottom: 6rem;
+      .txt {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        h2 {
+          max-width: 600px;
+        }
+      }
+    }
+    .cards {
+      display: none;
+    }
+  }
+}
+
+// ----
