@@ -1,0 +1,74 @@
+[
+  {
+    "text": "Home",
+    "link": "/"
+  },
+  {
+    "text": "about",
+    "link": "/about"
+  },
+  {
+    "text": "tour packages service",
+    "link": "services",
+    "subMenu": [
+      {
+        "text": "international Tour packages",
+        "link": "#"
+      },
+      {
+        "text": "domestic Tour packages",
+        "link": "#"
+      },
+      {
+        "text": "pilgrimage Tour packages",
+        "link": "#"
+      },
+      {
+        "text": "corporate Tour packages",
+        "link": "#"
+      },
+      {
+        "text": "forex exchange service",
+        "link": "#"
+      },
+      {
+        "text": "visa service",
+        "link": "#"
+      },
+      {
+        "text": "Cruise tour packages",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "text": "Adventure",
+    "link": "services",
+
+    "subMenu": [
+      {
+        "text": "Adventure Destinations",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "text": "flights",
+    "link": "services",
+
+    "subMenu": [
+      {
+        "text": "international flights",
+        "link": "#"
+      },
+      {
+        "text": "Domestic flights",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "text": "contact",
+    "link": "/contact"
+  }
+]

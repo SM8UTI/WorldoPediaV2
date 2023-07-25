@@ -12,12 +12,7 @@ const Aboutus = () => {
       <div className="AboutUS">
         <Wrapper>
           <div className="container">
-            <div
-              className="image"
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-anchor-placement="center-bottom"
-            >
+            <div className="image" data-aos="zoom-in" data-aos-duration="1000">
               <img src={image} alt="worldo-pedia image" />
             </div>
             <div className="text">

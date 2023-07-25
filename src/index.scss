@@ -251,6 +251,323 @@ button {
   left: calc(2% + 1px) !important;
 }
 
+// header
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background-color: var(--neutral);
+
+  transition: box-shadow 0.7s ease-in-out;
+
+  .logo {
+    width: 80px;
+    @include breakpoints(sm) {
+      width: 120px !important;
+    }
+  }
+  //   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .menuBtn {
+      cursor: pointer;
+      width: 50px;
+      aspect-ratio: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 4px;
+      padding: 0.5rem;
+      overflow: hidden;
+      span {
+        color: var(--text);
+        display: inline-block;
+        background-color: var(--text);
+        width: 100%;
+        height: 3px;
+        border-radius: 1rem;
+        rotate: 0deg;
+        translate: 0 0;
+        transform-origin: 7px 2px;
+        transition: all 0.6s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+        opacity: 100%;
+      }
+
+      @include breakpoints(lg) {
+        display: none;
+      }
+    }
+
+    .menuBtn.active {
+      span {
+        &:first-child {
+          rotate: 45deg;
+        }
+
+        &:last-child {
+          rotate: -45deg;
+        }
+
+        &:nth-child(2) {
+          opacity: 0;
+          translate: 100px 0;
+        }
+      }
+    }
+
+    .navMenuMobile {
+      @include breakpoints(lgMax) {
+        display: flex;
+      }
+
+      display: none;
+
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 100vh;
+      translate: -100% 0;
+      transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--black);
+        opacity: 0%;
+        z-index: -1;
+        transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+
+      .HeaderMobileMenuContainer {
+        overflow-y: scroll;
+        translate: -100% 0;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        background-color: var(--neutral);
+        width: 80%;
+        transition: all 0.7s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        height: 100vh;
+
+        .header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .logo {
+            padding-left: 1rem;
+            width: 80px !important;
+            aspect-ratio: 1;
+            object-fit: contain;
+          }
+
+          .btn {
+            padding-left: 0.5rem;
+            border-radius: 0.4rem 0 0 0.4rem;
+            .menuBtn {
+              span {
+                background-color: var(--neutral) !important;
+              }
+            }
+            background-color: var(--primary);
+          }
+        }
+
+        .navM {
+          .navMenuM {
+            padding: 1rem;
+            padding-top: 0rem;
+
+            .navMenuItem {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            }
+
+            .subMenu {
+              display: none;
+            }
+
+            .subMenu.active {
+              display: flex;
+              flex-direction: column;
+            }
+
+            a {
+              cursor: pointer;
+            }
+
+            li {
+              padding: 1rem 0;
+              font-size: 1.1rem;
+              font-weight: 700;
+              color: var(--text);
+              text-transform: capitalize;
+
+              .subMenu {
+                padding-left: 1.5rem;
+                margin-top: 1rem;
+
+                li {
+                  transition: all 0.6s ease-in-out;
+                  color: var(--subText);
+                  &:last-child {
+                    border-bottom: none;
+                  }
+
+                  &:hover {
+                    color: var(--primary);
+                  }
+                }
+              }
+
+              &:nth-child(n) {
+                border-bottom: 1px solid var(--subText80);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .navMenuMobile.active {
+      translate: 0 0;
+
+      .HeaderMobileMenuContainer {
+        translate: 0 0;
+      }
+
+      &::after {
+        translate: 0 0;
+        opacity: 40%;
+      }
+    }
+
+    .nav {
+      position: relative;
+      @include breakpoints(lgMax) {
+        display: none !important;
+      }
+
+      .navMenu {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        li {
+          text-transform: capitalize;
+          font-weight: 500;
+          font-size: 1rem;
+        }
+
+        a {
+          cursor: pointer;
+        }
+
+        .navMenuItemContainer {
+          position: relative;
+
+          .subMenu {
+            display: none !important;
+            position: absolute;
+            top: 1rem;
+            left: 50%;
+            translate: -50% 0;
+            opacity: 0%;
+            overflow: hidden;
+            background-color: var(--neutral);
+            padding: 1rem 2rem;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 0.5rem;
+            transition: all 0.6s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+
+            li {
+              white-space: nowrap;
+              font-size: 0.9rem;
+              color: var(--subText);
+              text-transform: capitalize;
+              min-height: 2.2rem;
+
+              &:nth-child(n) {
+                border-top: 1px solid var(--subText80);
+                padding-top: 0.5rem;
+              }
+
+              &:first-child {
+                border: none;
+              }
+
+              &:hover {
+                color: var(--primary);
+              }
+            }
+          }
+
+          .subMenu.active {
+            display: block !important;
+            top: 3rem;
+            opacity: 100%;
+          }
+
+          .navMenuItem.active {
+            &::after {
+              opacity: 100%;
+            }
+          }
+
+          .navMenuItem {
+            display: flex;
+            align-items: center;
+            color: var(--subText);
+            gap: 4px;
+            position: relative;
+            transition: all 0.6s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+
+            .ico {
+              font-size: 0.8rem;
+              margin-top: 3px;
+            }
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: -1.5rem;
+              left: 0;
+              width: 100%;
+              height: 4px;
+              background-color: var(--primary);
+              border-radius: 2rem;
+              opacity: 0;
+              transition: all 0.3s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+            }
+
+            &:hover {
+              color: var(--primary);
+
+              &::after {
+                bottom: -1rem;
+                opacity: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/// ------
+
 // footer
 
 .Footer {
@@ -1557,12 +1874,13 @@ button {
   }
 
   .container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+
     gap: 3rem;
 
     @include breakpoints(lg) {
-      flex-direction: row;
+      grid-template-columns: 1fr 1fr;
       gap: 4rem;
     }
 
@@ -1744,11 +2062,11 @@ button {
     width: 100%;
     max-width: 1200px;
     margin-inline: auto;
-    margin-top: -5rem;
+    margin-top: 3rem;
 
     .container {
       width: 100%;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       border-radius: 0.5rem;
       @include breakpoints(lg) {
         min-width: 60vw;
