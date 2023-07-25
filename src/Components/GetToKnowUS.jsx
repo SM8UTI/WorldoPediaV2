@@ -10,7 +10,7 @@ const GetToKnowUS = () => {
         <div className="container">
           <div
             className="image"
-            data-aos="fade-right"
+            data-aos="zoom-in-down"
             data-aos-duration="2000"
             data-aos-anchor-placement="center-bottom"
           >

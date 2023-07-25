@@ -9,10 +9,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const App = () => {
-  const [loadding, setLoadding] = useState(false);
+  const [loadding, setLoadding] = useState(true);
   useEffect(() => {
     setLoadding(true);
     window.addEventListener("load", () => {
+      setLoadding(false);
       setTimeout(() => {
         setLoadding(false);
       }, 500);

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Aarav Patel",
+    "message": "The tour was incredible! I got to explore breathtaking landscapes and learn about the rich culture.",
+    "review_star": 5
+  },
+  {
+    "name": "Aditi Sharma",
+    "message": "Amazing travel experience. The guides were knowledgeable and made the trip memorable.",
+    "review_star": 4.5
+  },
+  {
+    "name": "Rohan Gupta",
+    "message": "Had a fantastic time on the adventure tour. The activities were thrilling!",
+    "review_star": 5
+  },
+  {
+    "name": "Dia Khanna",
+    "message": "The heritage tour was enlightening. I enjoyed visiting historical monuments and understanding their significance.",
+    "review_star": 3
+  },
+  {
+    "name": "Kabir Malhotra",
+    "message": "The wildlife safari was a dream come true. Seeing animals in their natural habitat was unforgettable.",
+    "review_star": 5
+  },
+  {
+    "name": "Riya Mehta",
+    "message": "I had a wonderful time on the cultural tour. The traditional performances were captivating.",
+    "review_star": 4.5
+  },
+  {
+    "name": "Arjun Reddy",
+    "message": "The trekking expedition was challenging and rewarding. The views from the top were mesmerizing.",
+    "review_star": 5
+  },
+  {
+    "name": "Neha Kapoor",
+    "message": "Enjoyed the food tour immensely. Got to taste a variety of delicious local dishes.",
+    "review_star": 4
+  },
+  {
+    "name": "Rajiv Verma",
+    "message": "The pilgrimage tour was spiritually fulfilling. It was a soul-soothing experience.",
+    "review_star": 5
+  },
+  {
+    "name": "Anaya Singh",
+    "message": "The group tour was well-organized, and we covered all the must-visit places. Loved every moment of it.",
+    "review_star": 4
+  }
+]
