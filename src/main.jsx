@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Pages/Home.jsx";
 import About from "./Pages/About.jsx";
 import Contact from "./Pages/Contact.jsx";
+import Hungery from "./Pages/FullDetails/Hungery.jsx";
 
 const AppRouter = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const AppRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/hungery",
+        element: <Hungery />,
       },
     ],
   },

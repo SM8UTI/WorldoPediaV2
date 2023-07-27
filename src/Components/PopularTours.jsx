@@ -6,6 +6,8 @@ import { BiTimeFive } from "react-icons/bi";
 import { BsPeople, BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
+import { animateScroll as scroll } from "react-scroll";
+
 const PopularTours = () => {
   return (
     <div className="PopularTours">
@@ -29,9 +31,13 @@ const PopularTours = () => {
             {PopularToursLists.map((elem, index) => (
               <div className="PopularTourCard" key={index}>
                 {elem?.featured && <div className="tag">FEATURED</div>}
-                <div className="img">
+                <Link
+                  to={elem.link}
+                  onClick={() => scroll.scrollToTop()}
+                  className="img"
+                >
                   <img src={elem.image} alt={elem.text} loading="lazy" />
-                </div>
+                </Link>
                 <div className="txt">
                   <div className="rating">
                     <div className="ico">
@@ -68,7 +74,7 @@ const PopularTours = () => {
                         <span>{elem.people}</span>
                       </div>
                     </div>
-                    <Link to={elem.link}>
+                    <Link to={elem.link} onClick={() => scroll.scrollToTop()}>
                       <span>Explore</span>
                       <BsArrowRight />
                     </Link>

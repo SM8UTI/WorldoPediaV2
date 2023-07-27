@@ -1,0 +1,69 @@
+[
+  {
+    "id": "3339e5c7-2b1e-46be-8cbb-c62224106467-1690428404181-4775",
+    "tourName": "Hungary",
+    "placeName": "Central Europe",
+    "description": "Hungary, located in Central Europe, is a captivating destination that blends historical charm with modern vibrancy. Its capital, Budapest, often referred to as the Pearl of the Danube, showcases stunning architecture divided by the Danube River into Buda and Pest. Visitors can explore Castle Hill, home to Buda Castle, Matthias Church, and Fisherman's Bastion, while Pest offers cultural attractions and the iconic Hungarian Parliament Building. Beyond the city, Hungary's countryside boasts charming towns, vineyards, and thermal spas, with Lake Balaton drawing tourists for summer activities. Hungarian cuisine is renowned, featuring hearty dishes like goulash and chimney cake, savored in food markets and traditional restaurants.",
+    "reviews": {
+      "star": "4.6",
+      "user": "248"
+    },
+    "duration": "5 days",
+    "price": "₹119.00",
+    "includes": [
+      "Accommodation",
+      "Meals",
+      "Transportation",
+      "Activity Fees",
+      "Professional Guides"
+    ],
+    "excludes": ["Personal Expenses", "Travel Insurance"],
+    "itinerary": [
+      {
+        "day": 1,
+        "activity": "Arrival in Cityville",
+        "description": "Gather with your tour guide and fellow adventurers for a warm welcome and essential orientation. Get ready to embark on an unforgettable journey as you receive a comprehensive tour briefing, setting the stage for an exciting adventure ahead. Learn about the exciting experiences and destinations that await you, ensuring you're fully prepared for the upcoming exploration. Your tour guide will provide valuable insights and answer any questions, fostering a sense of camaraderie and excitement among the group. Let the journey begin with an inspiring start as you set off on a memorable adventure together."
+      },
+      {
+        "day": 2,
+        "activity": "Thrilling white water adventure.",
+        "description": "Experience the thrill of white water rafting as you conquer the wild river. Get ready for an adrenaline rush like no other, with heart-pounding rapids and breathtaking scenery. This action-packed adventure promises excitement and exhilaration as you navigate through the swirling waters, creating unforgettable memories with every twist and turn. Feel the rush of the river beneath you and the camaraderie of your fellow adventurers, making this an unforgettable and adrenaline-fueled experience. Brace yourself for the ride of a lifetime as you embark on an epic white water rafting expedition, guaranteed to leave you with a sense of exhilaration and accomplishment."
+      },
+      {
+        "day": 3,
+        "activity": "Hiking in the Wilderness",
+        "description": "Experience the wonders of untouched wilderness on a captivating guided hike. Follow your knowledgeable guide as you venture into nature's hidden gems, unveiling hidden waterfalls that cascade with beauty. Be awe-inspired by the stunning landscapes that surround you, immersing yourself in the tranquility and majesty of nature. This guided hike offers an unforgettable journey through unspoiled terrain, allowing you to connect with the natural world in its purest form. Discover the serenity of untouched landscapes and the thrill of exploration as you create cherished memories amidst the beauty of the great outdoors."
+      },
+      {
+        "day": 4,
+        "activity": "Zip Lining",
+        "description": "Embark on an exhilarating zip line adventure, soaring through the treetops with pure excitement. Feel the rush of adrenaline as you glide along high-speed cables, taking in breathtaking views from a unique perspective. Experience the thrill of flying through the air, surrounded by lush greenery and untouched nature. This heart-pounding adventure will leave you with an unforgettable sense of freedom and exhilaration. Let your adventurous spirit take flight as you embrace the thrill of the zip line, making memories that will last a lifetime. Get ready for an adrenaline-pumping journey that will leave you wanting to do it all over again."
+      },
+      {
+        "day": 5,
+        "activity": "Captivating wildlife safari immersion.",
+        "description": "Set off on a captivating safari to witness the incredible wildlife thriving in their natural habitat. Prepare for an awe-inspiring journey, surrounded by the untouched beauty of the wilderness. Encounter majestic creatures up close, from mighty elephants to graceful lions, as they roam freely in their native environment. Immerse yourself in the sights and sounds of nature's grand spectacle, where every moment brings a new and mesmerizing encounter. This safari adventure promises to be a once-in-a-lifetime experience, offering a deep connection with the wonders of the animal kingdom. Get ready to be spellbound by the raw beauty of wildlife and the harmony of nature as you embark on this unforgettable safari expedition."
+      },
+      {
+        "day": 6,
+        "activity": "Departure",
+        "description": "As your journey in Natureland comes to an end, cherish the unforgettable memories you've made. With a heart full of cherished moments, bid farewell to the breathtaking landscapes and captivating wildlife that have left a lasting impression. Take with you the beauty of Natureland, the adventures that stirred your soul, and the connections forged with fellow travelers. The experiences you've gathered will forever hold a special place in your heart. Though you leave Natureland, its essence will stay with you, inspiring your future adventures and kindling a yearning to explore more of the world's wonders. As you return home, carry the spirit of Natureland and its memories, forever shaping your love for nature and travel. Until we meet again, farewell with gratitude and joy in your heart."
+      }
+    ],
+    "images": [
+      "/hungery/1.jpg",
+      "/hungery/2.jpg",
+      "/hungery/3.jpg",
+      "/hungery/4.jpg",
+      "/hungery/5.jpg",
+      "/hungery/6.jpg"
+    ],
+    "bookingTour": {
+      "Tickets": [
+        "Adult (18+ years) ₹119.00",
+        "Youth (13-17 years) ₹109.00",
+        "Children (0-12 years) ₹69.00"
+      ]
+    }
+  }
+]
