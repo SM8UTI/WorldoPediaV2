@@ -10,17 +10,29 @@ const HeaderMenuItem = ({ elem }) => {
   return (
     <>
       <li className="navMenuItemContainer">
-        <Link
-          to={elem?.link}
-          className={"navMenuItem"}
-          onClick={() => {
-            setSubMenuShow(!subMenuShow);
-            scroll.scrollToTop();
-          }}
-        >
-          <span>{elem.text}</span>
-          {elem.subMenu !== undefined && <IoIosArrowDown className="ico" />}
-        </Link>
+        {elem.subMenu === undefined ? (
+          <Link
+            to={elem?.link}
+            className={"navMenuItem"}
+            onClick={() => {
+              setSubMenuShow(!subMenuShow);
+              scroll.scrollToTop();
+            }}
+          >
+            <span>{elem.text}</span>
+          </Link>
+        ) : (
+          <div
+            className={"navMenuItem"}
+            onClick={() => {
+              setSubMenuShow(!subMenuShow);
+              scroll.scrollToTop();
+            }}
+          >
+            <span>{elem.text}</span>
+            {elem.subMenu !== undefined && <IoIosArrowDown className="ico" />}
+          </div>
+        )}
 
         {elem.subMenu !== undefined && (
           <ul

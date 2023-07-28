@@ -9,7 +9,7 @@
   },
   {
     "text": "tour packages service",
-    "link": "services",
+
     "subMenu": [
       {
         "text": "international Tour packages",
@@ -43,7 +43,6 @@
   },
   {
     "text": "Adventure",
-    "link": "services",
 
     "subMenu": [
       {
@@ -54,7 +53,6 @@
   },
   {
     "text": "flights",
-    "link": "services",
 
     "subMenu": [
       {

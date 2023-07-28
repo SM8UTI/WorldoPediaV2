@@ -13,10 +13,8 @@ const Hungery = () => {
   const datainfo = data[0];
   const nav = useNavigate();
   const handleShare = async () => {
-    // Check if the Web Share API is available
     if (navigator.share) {
       try {
-        // Use the Web Share API to share the page's URL
         await navigator.share({
           url: window.location.href,
         });
@@ -24,10 +22,6 @@ const Hungery = () => {
       } catch (error) {
         console.error("Error sharing:", error);
       }
-    } else {
-      // Fallback for browsers that do not support the Web Share API
-      // You can add your custom sharing logic here (e.g., opening a share popup)
-      console.log("Web Share API not supported.");
     }
   };
   return (
