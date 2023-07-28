@@ -1,9 +1,7 @@
-import loader from "../assets/loader.webm";
-
 const Loader = () => {
   return (
     <div className="Loader">
-      <video src={loader} autoPlay muted loop></video>
+      <video src={"loader.webm"} autoPlay muted loop></video>
     </div>
   );
 };

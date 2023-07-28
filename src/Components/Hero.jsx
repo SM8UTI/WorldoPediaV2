@@ -1,10 +1,5 @@
 import Carousel from "react-multi-carousel";
 import Wrapper from "../Components/Wrapper";
-
-import heroImage1 from "../assets/HeroScreen1.png";
-import heroImage2 from "../assets/HeroScreen2.png";
-import heroImage3 from "../assets/HeroScreen3.png";
-import heroImage4 from "../assets/HeroScreen4.png";
 import SearchContainer from "./SearchContainer";
 
 const Hero = () => {
@@ -38,16 +33,32 @@ const Hero = () => {
             autoPlaySpeed={3000}
           >
             <div className="imageCard">
-              <img src={heroImage1} alt="heroImage1" />
+              <img
+                src={"/hero/HeroScreen1.png"}
+                alt="heroImage1"
+                loading="lazy"
+              />
             </div>
             <div className="imageCard">
-              <img src={heroImage2} alt="heroImage2" />
+              <img
+                src={"/hero/HeroScreen2.png"}
+                alt="heroImage2"
+                loading="lazy"
+              />
             </div>
             <div className="imageCard">
-              <img src={heroImage3} alt="heroImage3" />
+              <img
+                src={"/hero/HeroScreen3.png"}
+                alt="heroImage3"
+                loading="lazy"
+              />
             </div>
             <div className="imageCard">
-              <img src={heroImage4} alt="heroImage4" />
+              <img
+                src={"/hero/HeroScreen4.png"}
+                alt="heroImage4"
+                loading="lazy"
+              />
             </div>
           </Carousel>
         </div>
