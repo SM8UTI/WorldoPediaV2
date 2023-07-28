@@ -1769,6 +1769,8 @@ header {
         width: 100%;
         height: 450px;
         img {
+          height: 100%;
+          min-height: 450px;
           overflow: hidden;
           border-radius: 1rem !important;
           object-fit: cover;
@@ -2377,6 +2379,10 @@ header {
         flex-wrap: wrap;
         gap: 2rem;
 
+        .mainName h2 {
+          max-width: 700px;
+        }
+
         .mainName-place {
           gap: 4px !important;
           .ico {
@@ -2461,6 +2467,52 @@ header {
 
       @include breakpoints(lg) {
         grid-template-columns: 1fr 0.5fr;
+      }
+
+      .sidebar {
+        .banner-img {
+          display: none;
+          // padding: 0.5rem;
+          border-radius: 1rem;
+          overflow: hidden;
+          position: relative;
+          margin-top: 1rem;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+            rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+          @include breakpoints(lg) {
+            display: flex;
+          }
+
+          h3 {
+            position: absolute;
+            bottom: 2rem;
+            left: 2rem;
+            color: var(--neutral);
+            z-index: 99;
+            font-family: var(--secondaryFont);
+            color: var(--neutral);
+          }
+
+          .opa {
+            width: 100%;
+            height: 100%;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 50%;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+          }
+          img {
+            display: block;
+            width: 100%;
+            height: 300px;
+            position: relative;
+            object-fit: cover;
+            z-index: -1;
+          }
+        }
       }
 
       .bookingTour {
@@ -2583,6 +2635,46 @@ header {
     .body-container {
       opacity: 100%;
       translate: 0 0;
+    }
+  }
+}
+
+// News
+
+.News {
+  margin-top: 6rem;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    .txt {
+      h3 {
+        font-family: var(--secondaryFont);
+        color: var(--primary);
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    .pBtn {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background-color: var(--primary);
+      font-size: 0.8rem;
+    }
+  }
+
+  .container {
+    margin-top: 3rem;
+
+    .feed {
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
     }
   }
 }

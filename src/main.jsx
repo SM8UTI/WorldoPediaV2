@@ -8,6 +8,8 @@ import Home from "./Pages/Home.jsx";
 import About from "./Pages/About.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Hungery from "./Pages/FullDetails/Hungery.jsx";
+import Switzerland from "./Pages/FullDetails/Switzerland.jsx";
+import Thailand from "./Pages/FullDetails/Thailand.jsx";
 
 const AppRouter = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const AppRouter = createBrowserRouter([
       {
         path: "/hungery",
         element: <Hungery />,
+      },
+      {
+        path: "/switzerland",
+        element: <Switzerland />,
+      },
+      {
+        path: "/thailand",
+        element: <Thailand />,
       },
     ],
   },

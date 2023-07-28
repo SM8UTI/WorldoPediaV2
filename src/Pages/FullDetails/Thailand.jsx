@@ -12,8 +12,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { animateScroll as scroll } from "react-scroll";
 import PopularTours from "../../Components/PopularTours";
 
-const Hungery = () => {
-  const datainfo = data[0];
+const Thailand = () => {
+  const datainfo = data[2];
   const nav = useNavigate();
   const handleShare = async () => {
     if (navigator.share) {
@@ -150,6 +150,16 @@ const Hungery = () => {
                   </ul>
                 </div>
                 <div className="banner-img">
+                  <h3>Hungery</h3>
+                  <Link to={"/hungery"} onClick={() => scroll.scrollToTop()}>
+                    <div className="opa"></div>
+                    <img
+                      src={"/hungery/2.jpg"}
+                      alt="worldopediaa switzerland"
+                    />
+                  </Link>
+                </div>
+                <div className="banner-img">
                   <h3>Switzerland</h3>
                   <Link
                     to={"/switzerland"}
@@ -158,16 +168,6 @@ const Hungery = () => {
                     <div className="opa"></div>
                     <img
                       src={"/switzerland/4.jpg"}
-                      alt="worldopediaa switzerland"
-                    />
-                  </Link>
-                </div>
-                <div className="banner-img">
-                  <h3>Thailand</h3>
-                  <Link to={"/thailand"} onClick={() => scroll.scrollToTop()}>
-                    <div className="opa"></div>
-                    <img
-                      src={"/thailand/4.jpg"}
                       alt="worldopediaa switzerland"
                     />
                   </Link>
@@ -182,4 +182,4 @@ const Hungery = () => {
   );
 };
 
-export default Hungery;
+export default Thailand;

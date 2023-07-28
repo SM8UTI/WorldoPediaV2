@@ -52,7 +52,7 @@ const SearchContainer = () => {
                 <label htmlFor="date">When</label>
               </div>
               <input
-                type="date"
+                // type="date"
                 name="date"
                 id="date"
                 placeholder="Date From"

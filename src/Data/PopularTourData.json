@@ -9,7 +9,7 @@
       "user": "248"
     },
     "duration": "5 days",
-    "price": "₹119.00",
+    "price": "₹40,000",
     "includes": [
       "Accommodation",
       "Meals",
@@ -60,9 +60,171 @@
     ],
     "bookingTour": {
       "Tickets": [
+        "Adult (18+ years) ₹20,000.00",
+        "Youth (13-17 years) ₹20,000.00",
+        "Children (0-12 years) ₹10,000.00"
+      ]
+    }
+  },
+  {
+    "id": "3339e5c7-2b1e-46be-8cbb-c62224106467-1690428404181-5000",
+    "tourName": "Swiss Alpine Adventure",
+    "placeName": " Switzerland",
+    "description": "Prepare to embark on an unforgettable Swiss Alpine Adventure, where the captivating beauty of Switzerland's landscapes and charming towns awaits. This extraordinary journey promises to take you on a mesmerizing exploration of the country's most scenic and awe-inspiring regions. As you venture into the heart of the Swiss Alps, be prepared to be captivated by the majestic mountains, pristine lakes, and lush valleys that surround you. The dramatic peaks and glaciers create a breathtaking backdrop, inviting you to immerse yourself in the wonders of nature. Your adventure will lead you to picturesque towns and villages, each with its own unique charm and character. Wander through cobblestone streets lined with quaint chalets adorned with vibrant flower boxes. Discover the rich history and traditions that have shaped the cultural tapestry of these charming settlements.",
+    "reviews": {
+      "star": "4.3",
+      "user": "450"
+    },
+    "duration": "8 days",
+    "price": "₹50,000.00",
+    "includes": [
+      "Accommodation",
+      "Meals",
+      "Transportation",
+      "Activity Fees",
+      "Professional Guides"
+    ],
+    "excludes": ["Personal Expenses", "Travel Insurance"],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "Arrival in Zurich",
+        "description": "Welcome to Switzerland! Upon arrival in Zurich, you'll be greeted by our friendly tour representative who will assist you to your hotel. Spend the day at leisure, exploring the vibrant city or relaxing after your journey."
+      },
+      {
+        "day": "Day 2",
+        "activity": "Zurich City Tour",
+        "description": "Discover the highlights of Zurich on a guided city tour. Visit the charming Old Town, stroll along the picturesque Lake Zurich, and admire the stunning views from the Swiss National Museum. In the afternoon, take an optional excursion to Uetliberg Mountain for panoramic vistas."
+      },
+      {
+        "day": "Day 3",
+        "activity": "Lucerne - Mount Pilatus",
+        "description": "Travel to Lucerne, a city with medieval charm. Explore the iconic Chapel Bridge, Lion Monument, and the Old Town's cobbled streets. Later, ascend Mount Pilatus by cogwheel railway for sweeping Alpine views and enjoy leisure time at the summit."
+      },
+      {
+        "day": "Day 4",
+        "activity": "Interlaken - Jungfraujoch",
+        "description": "Head to Interlaken, nestled between Lake Thun and Lake Brienz. Take a thrilling excursion to Jungfraujoch, the Top of Europe, where you'll be mesmerized by the Aletsch Glacier and captivating ice sculptures at the Ice Palace."
+      },
+      {
+        "day": "Day 5",
+        "activity": "Zermatt - Matterhorn",
+        "description": "Travel to Zermatt, a picturesque Alpine village known for the iconic Matterhorn. Enjoy the scenic Gornergrat Railway journey, providing stunning views of the Matterhorn and surrounding peaks. Experience the charm of Zermatt at your leisure."
+      },
+      {
+        "day": "Day 6",
+        "activity": "Montreux - Lake Geneva",
+        "description": "Venture to Montreux, nestled on the shores of Lake Geneva. Explore the famous Chillon Castle, perched on a rocky island. Enjoy the tranquility of Lake Geneva and its scenic surroundings."
+      },
+      {
+        "day": "Day 7",
+        "activity": "Geneva City Tour",
+        "description": "Discover the international city of Geneva, home to the United Nations and Red Cross. Visit the iconic Jet d'Eau, explore the Old Town's historic landmarks, and enjoy leisure time along the beautiful Lake Geneva."
+      },
+      {
+        "day": "Day 8",
+        "activity": "Departure from Zurich",
+        "description": "Bid farewell to Switzerland as you depart from Zurich with cherished memories of the Alpine adventure. Transfer to the airport for your onward journey or extend your stay to explore more of Europe."
+      }
+    ],
+    "images": [
+      "/switzerland/1.jpg",
+      "/switzerland/2.jpg",
+      "/switzerland/3.jpg",
+      "/switzerland/4.jpg",
+      "/switzerland/5.jpg"
+    ],
+    "bookingTour": {
+      "Tickets": [
         "Adult (18+ years) ₹119.00",
         "Youth (13-17 years) ₹109.00",
         "Children (0-12 years) ₹69.00"
+      ]
+    }
+  },
+  {
+    "id": "3339e5c7-2b1e-46be-8cbb-c62224106467-1690428404181-3549",
+    "tourName": "Discover Thailand - Land of Smiles",
+    "placeName": " Thailand",
+    "description": "Experience the enchantment of Thailand's captivating landscapes on a 10-day adventure of a lifetime. Dive into the vibrant heart of Southeast Asia, embracing the nation's rich culture, dynamic cities, and serene islands. From the bustling streets of Bangkok to the tranquil shores of pristine beaches, every moment will be a tapestry of awe-inspiring experiences. Explore ancient temples that whisper tales of history and spirituality, while the azure waters of idyllic islands beckon with serenity and wonder. Immerse yourself in the warm embrace of Thai hospitality, savoring delectable cuisine and vibrant traditions. This extraordinary journey will weave unforgettable memories as you witness the harmonious blend of cultural wonders and natural beauty that defines Thailand's allure. Embrace the allure of this magical land and set forth on an enchanting odyssey through the heart of Thailand's captivating spirit.",
+    "reviews": {
+      "star": "4.3",
+      "user": "450"
+    },
+    "duration": "10 days",
+    "price": "₹30,000.00",
+    "includes": [
+      "Accommodation",
+      "Meals",
+      "Transportation",
+      "Activity Fees",
+      "Professional Guides"
+    ],
+    "excludes": ["Personal Expenses", "Travel Insurance"],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "Arrival in Bangkok",
+        "description": "Welcome to Bangkok, the bustling capital of Thailand! Upon arrival, you'll be greeted by our friendly tour representative and transferred to your hotel. Rest and relax after your journey or venture out to explore the vibrant streets of this lively city."
+      },
+      {
+        "day": "Day 2",
+        "activity": "Bangkok City Tour",
+        "description": "Embark on a guided city tour of Bangkok's top attractions. Visit the Grand Palace, Wat Pho (Temple of the Reclining Buddha), and Wat Arun (Temple of Dawn). Enjoy a boat ride along the Chao Phraya River, witnessing the city's scenic riverfront landmarks."
+      },
+      {
+        "day": "Day 3",
+        "activity": "Ayutthaya Historical Park",
+        "description": "Travel to Ayutthaya, a UNESCO World Heritage Site and ancient capital of Thailand. Explore the Ayutthaya Historical Park, where ancient ruins and temples offer a glimpse into the country's rich history and culture."
+      },
+      {
+        "day": "Day 4",
+        "activity": "Chiang Mai Exploration",
+        "description": "Fly to Chiang Mai, a cultural hub in northern Thailand. Discover the city's temples, including Wat Phra Singh and Doi Suthep Temple, offering breathtaking views of the surrounding area. Visit local markets and experience the warm hospitality of the northern region."
+      },
+      {
+        "day": "Day 5",
+        "activity": "Elephant Sanctuary Visit",
+        "description": "Spend a day at an ethical elephant sanctuary, where you can interact with these majestic creatures in their natural environment. Learn about elephant conservation efforts and have a once-in-a-lifetime experience feeding and bathing them."
+      },
+      {
+        "day": "Day 6",
+        "activity": "Phi Phi Islands",
+        "description": "Fly to Phuket and set sail to the stunning Phi Phi Islands. Enjoy a day of island hopping, swimming in crystal-clear waters, and relaxing on pristine beaches. Snorkel among vibrant marine life and witness the natural beauty of this tropical paradise."
+      },
+      {
+        "day": "Day 7",
+        "activity": "James Bond Island",
+        "description": "Embark on a boat excursion to James Bond Island, made famous by the movie 'The Man with the Golden Gun.' Explore the limestone cliffs and sea caves of Phang Nga Bay, surrounded by breathtaking scenery."
+      },
+      {
+        "day": "Day 8",
+        "activity": "Koh Samui Leisure",
+        "description": "Fly to Koh Samui, a beautiful island known for its palm-fringed beaches and lush landscapes. Enjoy leisure time to relax on the beach, indulge in spa treatments, or explore local markets and temples at your own pace."
+      },
+      {
+        "day": "Day 9",
+        "activity": "Koh Tao Snorkeling",
+        "description": "Take a boat trip to Koh Tao, famous for its vibrant coral reefs and marine life. Snorkel or dive in the crystal-clear waters, encountering tropical fish and colorful corals. Enjoy the serenity of this island paradise."
+      },
+      {
+        "day": "Day 10",
+        "activity": "Departure from Bangkok",
+        "description": "Bid farewell to Thailand as you depart from Bangkok with cherished memories of an enchanting adventure. Transfer to the airport for your onward journey or extend your stay to explore more of this captivating country."
+      }
+    ],
+    "images": [
+      "/thailand/1.jpg",
+      "/thailand/2.jpg",
+      "/thailand/3.jpg",
+      "/thailand/4.jpg",
+      "/thailand/5.jpg"
+    ],
+    "bookingTour": {
+      "Tickets": [
+        "Adult (18+ years) ₹11,000.00",
+        "Youth (13-17 years) ₹10,900.00",
+        "Children (0-12 years) ₹6,900.00"
       ]
     }
   }

@@ -1,44 +1,44 @@
 [
   {
-    "text": "Paris",
-    "location": "Central Park West NY, USA",
-    "price": "511",
+    "text": "Swiss Alpine Adventure",
+    "location": "Switzerland",
+    "price": "50,000",
     "days": "10",
     "people": "50",
-    "link": "#",
-    "review": "4.8",
-    "image": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+    "link": "/switzerland",
+    "review": "4.3",
+    "image": "/switzerland/3.jpg"
   },
   {
     "text": "Hungary",
     "location": "Central Park West NY, USA",
-    "price": "69",
+    "price": "40,000",
     "days": "10",
     "people": "50",
     "link": "/hungery",
     "review": "4.2",
-    "image": "https://images.unsplash.com/photo-1541343672885-9be56236302a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+    "image": "/hungery/4.jpg"
   },
   {
     "featured": true,
-    "text": "Paris",
-    "location": "Central Park West NY, USA",
-    "price": "511",
+    "text": "Discover Thailand - Land of Smiles",
+    "location": "Thailand",
+    "price": "30,000",
     "days": "10",
     "people": "50",
-    "link": "#",
+    "link": "/thailand",
     "review": "4.1",
-    "image": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+    "image": "/thailand/5.jpg"
   },
   {
     "text": "Hungary",
     "location": "Central Park West NY, USA",
-    "price": "69",
+    "price": "40,000",
     "days": "10",
     "people": "50",
-    "link": "#",
-    "review": "4.0",
-    "image": "https://images.unsplash.com/photo-1541343672885-9be56236302a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+    "link": "/hungery",
+    "review": "4.2",
+    "image": "/hungery/4.jpg"
   },
   {
     "featured": true,
@@ -49,6 +49,6 @@
     "people": "50",
     "link": "#",
     "review": "3.2",
-    "image": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+    "image": "/switzerland/1.jpg"
   }
 ]
