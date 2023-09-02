@@ -10,6 +10,7 @@ import Contact from "./Pages/Contact.jsx";
 import Hungery from "./Pages/FullDetails/Hungery.jsx";
 import Switzerland from "./Pages/FullDetails/Switzerland.jsx";
 import Thailand from "./Pages/FullDetails/Thailand.jsx";
+import Error404 from "./Pages/Error404.jsx";
 
 const AppRouter = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const AppRouter = createBrowserRouter([
         element: <Thailand />,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <Error404 />,
   },
 ]);
 

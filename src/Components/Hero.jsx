@@ -33,32 +33,16 @@ const Hero = () => {
             autoPlaySpeed={3000}
           >
             <div className="imageCard">
-              <img
-                src={"/hero/HeroScreen1.png"}
-                alt="heroImage1"
-                loading="lazy"
-              />
+              <img src={"/hero/HeroScreen1.webp"} alt="heroImage1" />
             </div>
             <div className="imageCard">
-              <img
-                src={"/hero/HeroScreen2.png"}
-                alt="heroImage2"
-                loading="lazy"
-              />
+              <img src={"/hero/HeroScreen2.webp"} alt="heroImage2" />
             </div>
             <div className="imageCard">
-              <img
-                src={"/hero/HeroScreen3.png"}
-                alt="heroImage3"
-                loading="lazy"
-              />
+              <img src={"/hero/HeroScreen3.webp"} alt="heroImage3" />
             </div>
             <div className="imageCard">
-              <img
-                src={"/hero/HeroScreen4.png"}
-                alt="heroImage4"
-                loading="lazy"
-              />
+              <img src={"/hero/HeroScreen4.webp"} alt="heroImage4" />
             </div>
           </Carousel>
         </div>

@@ -7,7 +7,7 @@
     "people": "50",
     "link": "/switzerland",
     "review": "4.3",
-    "image": "/switzerland/3.jpg"
+    "image": "/switzerland/3.webp"
   },
   {
     "text": "Hungary",
@@ -17,7 +17,7 @@
     "people": "50",
     "link": "/hungery",
     "review": "4.2",
-    "image": "/hungery/4.jpg"
+    "image": "/hungery/4.webp"
   },
   {
     "featured": true,
@@ -28,7 +28,7 @@
     "people": "50",
     "link": "/thailand",
     "review": "4.1",
-    "image": "/thailand/5.jpg"
+    "image": "/thailand/5.webp"
   },
   {
     "text": "Hungary",
@@ -38,7 +38,7 @@
     "people": "50",
     "link": "/hungery",
     "review": "4.2",
-    "image": "/hungery/4.jpg"
+    "image": "/hungery/4.webp"
   },
   {
     "featured": true,
@@ -49,6 +49,6 @@
     "people": "50",
     "link": "#",
     "review": "3.2",
-    "image": "/switzerland/1.jpg"
+    "image": "/switzerland/1.webp"
   }
 ]

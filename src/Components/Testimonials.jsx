@@ -29,7 +29,7 @@ const Testimonials = () => {
                 <div className="Testimonials-card-container">
                   <div className="image">
                     <img
-                      src={`/userImage/${index + 1}.jpeg`}
+                      src={`/userImage/${index + 1}.webp`}
                       alt="worldo-pedia user image"
                     />
                   </div>
