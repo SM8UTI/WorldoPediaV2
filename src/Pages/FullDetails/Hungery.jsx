@@ -157,7 +157,7 @@ const Hungery = () => {
                   >
                     <div className="opa"></div>
                     <img
-                      src={"/switzerland/4.jpg"}
+                      src={"/switzerland/4.webp"}
                       alt="worldopediaa switzerland"
                     />
                   </Link>
@@ -167,7 +167,7 @@ const Hungery = () => {
                   <Link to={"/thailand"} onClick={() => scroll.scrollToTop()}>
                     <div className="opa"></div>
                     <img
-                      src={"/thailand/4.jpg"}
+                      src={"/thailand/4.webp"}
                       alt="worldopediaa switzerland"
                     />
                   </Link>

@@ -154,7 +154,7 @@ const Switzerland = () => {
                   <Link to={"/hungery"} onClick={() => scroll.scrollToTop()}>
                     <div className="opa"></div>
                     <img
-                      src={"/hungery/2.jpg"}
+                      src={"/hungery/2.webp"}
                       alt="worldopediaa switzerland"
                     />
                   </Link>
@@ -164,7 +164,7 @@ const Switzerland = () => {
                   <Link to={"/thailand"} onClick={() => scroll.scrollToTop()}>
                     <div className="opa"></div>
                     <img
-                      src={"/thailand/4.jpg"}
+                      src={"/thailand/4.webp"}
                       alt="worldopediaa switzerland"
                     />
                   </Link>
